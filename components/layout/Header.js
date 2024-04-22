@@ -6,12 +6,12 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {
   const navitem = [
-    { to: "/", label: "HOME" },
-    { to: "/", label: "DRIVECLASS" },
-    { to: "/", label: "PRICING" },
-    { to: "/", label: "FAQ" },
-    { to: "/", label: "LINKS" },
-    { to: "/", label: "KONTAKT" },
+    { to: "/", label: "Home" },
+    { to: "/", label: "Angebote" },
+    { to: "/", label: "Über Uns" },
+    { to: "/", label: "Aktuelles" },
+    { to: "/", label: "Links" },
+    { to: "/", label: "Kontakt" },
   ];
   return (
     <div className="fixed w-full z-50 py-4 px-0 md:px-4">
@@ -70,7 +70,7 @@ export default function Header() {
                 Router.push("/");
               }}
             >
-              LOG IN
+              Anmelden
             </button>
           </div>
         </Grid>
